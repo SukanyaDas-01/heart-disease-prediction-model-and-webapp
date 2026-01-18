@@ -1,0 +1,10 @@
+Data-analysis
+EDA
+Machine-learning-models
+streamlit
+numpy
+pandas
+scikit-learn
+joblib
+seaborn
+matplotlib
