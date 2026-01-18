@@ -90,7 +90,7 @@ st.markdown("<h1 style='text-align:center;color:#FF4B4B;'>❤ Heart Disease Risk
 cp = {"Typical Angina": 0, "Atypical Angina": 1, "Non-anginal": 2, "Asymptomatic": 3}
 restecg = {"Normal": 0, "ST-T Abnormality": 1, "LVH": 2}
 slope = {"Upsloping": 0, "Flat": 1, "Downsloping": 2}
-thal = {"Normal": 1, "Fixed Defect": 2, "Reversible Defect": 3}
+thal = {"Fixed Defect": 1, "Reversible Defect": 2, "Normal": 3}
 
 # -------------------- Inputs --------------------
 col1, col2, col3 = st.columns(3)
