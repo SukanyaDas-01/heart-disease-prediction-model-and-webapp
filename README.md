@@ -31,6 +31,20 @@ This project implements an end-to-end ML workflow for heart disease risk predict
 
 The goal is not just accuracy, but engineering correctness and deployability.
 
+## 📸 Application Screenshots
+
+### 🏠 Home Page
+<img src="screenshots/home.png" width="900"/>
+
+### 🔥 High-Risk Test Mode
+<img src="screenshots/high_risk.png" width="900"/>
+
+### 📊 Prediction Result & Risk Gauge
+<img src="screenshots/result.png" width="900"/>
+
+### 📄 PDF Report Generation
+<img src="screenshots/pdf_report.png" width="900"/>
+
 
 ## 🧠 Machine Learning Approach
 
