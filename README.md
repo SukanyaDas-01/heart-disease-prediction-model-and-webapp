@@ -8,29 +8,60 @@
 
 A machine learning web application that predicts heart disease risk using clinical parameters. Built with Streamlit and featuring real-time predictions, interactive visualizations, PDF report generation, and custom model training capabilities.
 
+=======
+# 🫀 Heart Disease Risk Predictor
+>>>>>>> 05744b7 (Updated train_and_commit.py)
 
-### End-to-End Machine Learning Pipeline with Deployment
+> AI-powered cardiovascular risk assessment tool with interactive web interface
 
-A production-ready machine learning project that predicts heart disease risk using clinical parameters, built with proper preprocessing, model encapsulation, evaluation, and Streamlit deployment.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)](https://streamlit.io/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3%2B-orange)](https://scikit-learn.org/)
 
-## 📌 Project Overview
+A machine learning web application that predicts heart disease risk using clinical parameters. Built with Streamlit and featuring real-time predictions, interactive visualizations, PDF report generation, and custom model training capabilities.
 
-This project implements an end-to-end ML workflow for heart disease risk prediction, covering:
+![Heart Disease Predictor Demo](screenshots/demo.gif)
 
-- Exploratory Data Analysis (EDA)
+## ✨ Features
 
-- Model experimentation & comparison
+### 🔮 Smart Prediction Engine
+- Real-time risk assessment with 85%+ accuracy
+- Multiple ML algorithms (Random Forest, Logistic Regression, SVM)
+- Proper data scaling for accurate predictions
+- Risk categorization (Low / Medium / High)
 
-- Reproducible training using pipelines
+### 🎨 Interactive User Interface
+- Beautiful Streamlit UI with animations and dark theme
+- Lottie animations for enhanced user experience
+- Responsive design that works on all devices
+- Intuitive input forms with helpful tooltips
 
-- Probability-based prediction
+### 📊 Advanced Visualizations
+- Gauge charts for risk probability display
+- Comparison charts (Patient vs Normal values)
+- Feature importance plots for model interpretability
+- Progress indicators and color-coded risk levels
 
-- Deployment using Streamlit
+### 📋 Professional Reports
+- PDF report generation with patient summary
+- Download functionality for medical records
+- Comprehensive risk analysis with recommendations
+- Medical disclaimers and professional formatting
 
-- PDF report generation for predictions
+### 🧪 Testing & Validation
+- Quick test profiles (Low/Medium/High risk scenarios)
+- Debug mode to inspect model inputs
+- Model performance metrics and confusion matrices
+- Cross-validation support
 
-The goal is not just accuracy, but engineering correctness and deployability.
+### 📈 Custom Model Training
+- CSV file upload for custom datasets
+- Real-time model training with progress tracking
+- Multiple algorithm selection
+- Model comparison and performance analysis
+- Save/download trained models
 
+<<<<<<< HEAD
 ## 📸 Application Screenshots
 
 ### 🏠 Home Page
@@ -42,20 +73,45 @@ The goal is not just accuracy, but engineering correctness and deployability.
 ### 📄 PDF Report Generation
 <img src="screenshots/pdf_report.png" width="900"/>
 
+=======
+## 🚀 Quick Start
+>>>>>>> 05744b7 (Updated train_and_commit.py)
 
-## 🧠 Machine Learning Approach
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
 
-- **Problem Type**: Binary Classification
+### Installation
 
-- **Target**: Presence of heart disease (0 / 1)
+1. **Clone the repository**
+```bash
+git clone https://github.com/SukanyaDas-01/heart-disease-predictor.git
+cd heart-disease-predictor
+```
 
-- **Dataset**: Cleveland Heart Disease Dataset (UCI ML Repository)
+2. **Create virtual environment**
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-- **Features**: 13 clinical attributes
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
 
+4. **Run the application**
+```bash
+streamlit run app.py
+```
 
-## 🏗️ ML Pipeline Architecture
+5. **Open in browser**
+```bash
+Local URL: http://localhost:8501
+Network URL: http://192.168.0.102:8501
+```
 
+<<<<<<< HEAD
 **🔁 End-to-End Flow**
 ```
 ┌────────────┐
@@ -138,16 +194,24 @@ Network URL: http://192.168.0.102:8501
 ## 📁 Project Structure
 ```
 heart-disease-prediction/
+=======
+```
+heart-disease-predictor/
+>>>>>>> 05744b7 (Updated train_and_commit.py)
 │
-├── app/
-│   └── app.py                  # Streamlit UI
+├── app.py                      # Main Streamlit application
+├── best_model.pkl              # Pre-trained ML model
+├── heart_disease.ipynb         # Model training notebook
+├── heart.csv                   # Cleveland Heart Disease Dataset
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
 │
-├── src/
-│   ├── preprocessing.py        # Input encoding & feature order
-│   ├── train.py                # Reproducible training pipeline
-│   ├── predict.py              # Inference logic
-│   └── evaluate.py             # Metrics & evaluation
+├── screenshots/                # App screenshots and demo
+│   ├── demo.gif
+│   ├── prediction-results.png
+│   └── custom-training.png
 │
+<<<<<<< HEAD
 ├── data/
 │   └── heart.csv               # Dataset
 │
@@ -292,4 +356,3 @@ This project is strictly for educational and research purposes.
 Made with ❤️ by [Sukanya Das](https://github.com/YOUR_USERNAME)
 
 </div>
-
