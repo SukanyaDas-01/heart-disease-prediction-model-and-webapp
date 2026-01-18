@@ -8,20 +8,6 @@
 
 A machine learning web application that predicts heart disease risk using clinical parameters. Built with Streamlit and featuring real-time predictions, interactive visualizations, PDF report generation, and custom model training capabilities.
 
-=======
-# 🫀 Heart Disease Risk Predictor
->>>>>>> 05744b7 (Updated train_and_commit.py)
-
-> AI-powered cardiovascular risk assessment tool with interactive web interface
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)](https://streamlit.io/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3%2B-orange)](https://scikit-learn.org/)
-
-A machine learning web application that predicts heart disease risk using clinical parameters. Built with Streamlit and featuring real-time predictions, interactive visualizations, PDF report generation, and custom model training capabilities.
-
-![Heart Disease Predictor Demo](screenshots/demo.gif)
-
 ## ✨ Features
 
 ### 🔮 Smart Prediction Engine
@@ -61,7 +47,6 @@ A machine learning web application that predicts heart disease risk using clinic
 - Model comparison and performance analysis
 - Save/download trained models
 
-<<<<<<< HEAD
 ## 📸 Application Screenshots
 
 ### 🏠 Home Page
@@ -73,9 +58,8 @@ A machine learning web application that predicts heart disease risk using clinic
 ### 📄 PDF Report Generation
 <img src="screenshots/pdf_report.png" width="900"/>
 
-=======
+
 ## 🚀 Quick Start
->>>>>>> 05744b7 (Updated train_and_commit.py)
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -111,7 +95,6 @@ Local URL: http://localhost:8501
 Network URL: http://192.168.0.102:8501
 ```
 
-<<<<<<< HEAD
 **🔁 End-to-End Flow**
 ```
 ┌────────────┐
@@ -197,7 +180,6 @@ heart-disease-prediction/
 =======
 ```
 heart-disease-predictor/
->>>>>>> 05744b7 (Updated train_and_commit.py)
 │
 ├── app.py                      # Main Streamlit application
 ├── best_model.pkl              # Pre-trained ML model
@@ -211,7 +193,6 @@ heart-disease-predictor/
 │   ├── prediction-results.png
 │   └── custom-training.png
 │
-<<<<<<< HEAD
 ├── data/
 │   └── heart.csv               # Dataset
 │
