@@ -34,6 +34,7 @@ def train():
     df["thal"] = df["thal"].fillna(df["thal"].median())
 
     X = df.drop("target", axis=1)
+    df["target"] = df["target"].apply(lambda x: 1 if x > 0 else 0)
     y = df["target"]
 
     # Train-test split
@@ -47,12 +48,12 @@ def train():
 
     # ML pipeline (Scaling + Model)
     pipeline = Pipeline([
-        ("scaler", StandardScaler()),
         ("model", RandomForestClassifier(
-            n_estimators=200,
-            max_depth=6,
+            n_estimators=400,
+            max_depth=10,
+            min_samples_leaf=3,
             random_state=42,
-            class_weight="balanced"
+            class_weight={0:1, 1:2}
         ))
     ])
 
