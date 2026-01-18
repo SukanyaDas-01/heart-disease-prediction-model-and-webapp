@@ -11,6 +11,13 @@ from src.predict import predict_risk
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 
+import sys
+import os
+
+# Add the project root to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+
 # -------------------- Config --------------------
 MODEL_PATH = "models/pipeline.pkl"
 
