@@ -37,6 +37,7 @@ The goal is not just accuracy, but engineering correctness and deployability.
 ## 🏗️ ML Pipeline Architecture
 
 **🔁 End-to-End Flow**
+```
 ┌────────────┐
 │   Dataset  │
 │ heart.csv  │
@@ -74,12 +75,12 @@ The goal is not just accuracy, but engineering correctness and deployability.
 │ (Prediction + │
 │ Visualization)│
 └───────────────┘
-
+```
 ✅ Scaling + model are encapsulated inside a single `Pipeline`, ensuring safe and consistent inference.
 
 
 ## 📁 Project Structure
-
+```
 heart-disease-prediction/
 │
 ├── app/
@@ -106,7 +107,7 @@ heart-disease-prediction/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 
 ## 📊 Model Experimentation
 
