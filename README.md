@@ -36,9 +36,6 @@ The goal is not just accuracy, but engineering correctness and deployability.
 ### 🏠 Home Page
 <img src="screenshots/home.png" width="900"/>
 
-### 🔥 High-Risk Test Mode
-<img src="screenshots/high_risk.png" width="900"/>
-
 ### 📊 Prediction Result & Risk Gauge
 <img src="screenshots/result.png" width="900"/>
 
