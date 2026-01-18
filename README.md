@@ -175,9 +175,7 @@ Network URL: http://192.168.0.102:8501
 
 
 ## 📁 Project Structure
-```
-heart-disease-prediction/
-=======
+
 ```
 heart-disease-predictor/
 │
@@ -275,6 +273,7 @@ Each prediction includes:
 - **Target**: Binary classification (0: No disease, 1: Disease)  
 
 ### Features Used
+```
 | Feature | Description | Range |
 |---------|-------------|-------|
 | Age | Patient age in years | 29-77 |
@@ -290,6 +289,7 @@ Each prediction includes:
 | Slope | Slope of peak exercise ST segment | 0-2 |
 | CA | Number of major vessels (0-4) | 0-4 |
 | Thal | Thalassemia test result | 1-3 |
+```
 
 ### Model Performance
 - **Algorithm**: Random Forest Classifier  
